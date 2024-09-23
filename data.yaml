@@ -1,0 +1,52 @@
+train: /content/drive/MyDrive/Thermal/images/train
+val: /content/drive/MyDrive/Thermal/images/val
+
+nc: 40
+names: [
+'person',
+'bicycle',
+'car',
+'motorcycle',
+'airplane',
+'bus',
+'train',
+'truck',
+'boat',
+'traffic light',
+'fire hydrant',
+'stop sign',
+'parking meter',
+'bench',
+'bird',
+'cat',
+'dog',
+'horse',
+'sheep',
+'cow',
+'elephant',
+'bear',
+'zebra',
+'giraffe',
+'backpack',
+'umbrella',
+'handbag',
+'tie',
+'suitcase',
+'frisbee',
+'skis',
+'snowboard',
+'sports ball',
+'kite',
+'baseball bat',
+'baseball glove',
+'skateboard',
+'surfboard',
+'tennis racket',
+'bottle'
+
+]
+
+augment: True
+hsv_h: 0.015
+hsv_s: 0.7
+hsv_v: 0.4
